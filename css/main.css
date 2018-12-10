@@ -12,7 +12,6 @@ html {
   text-size-adjust: 100%;
   line-height: 1.3;
   font-size: 1em;
-  font-family: Crimson Text, serif;
   color: #222;
 }
 
@@ -21,13 +20,22 @@ html {
 }
 
 article {
-  margin-right: .2em;
   max-width: 43em;
-  margin-left: .5em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article h1 {
+  font-family: Crimson Text, serif;
   font-weight: normal;
+  margin-bottom: 0;
+}
+
+article p {
+  margin-top: 1.275em;
+}
+
+article > p:nth-child(6) {
   margin-bottom: 0;
 }
 
@@ -38,42 +46,62 @@ article header {
 article header p {
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.4em;
   font-size: 1rem;
 }
 
+article ol {
+  font-family: Crimson Text, serif;
+  margin-top: 0;
+  padding: 1.2rem 1rem 0;
+  margin-bottom: 0;
+}
+
 article > p:last-child {
+  padding-bottom: 1.3em;
   border-bottom: 1px solid #999;
 }
 
-article > p:nth-child(2) {
-  margin-top: 1.3em;
-}
-
-article > p:nth-child(3) {
-  margin-top: 1.4em;
-}
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
   margin-left: 0;
-  margin-top: .7em;
-  font: normal 1.3/100%;
+  margin-right: 0;
+  margin-top: 1.3em;
+  padding: 0;
+}
+
+p {
+  font-family: Crimson Text, serif;
+  margin-top: 1.5em;
 }
 
 body {
-  margin-right: 1em;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    margin-top: .2em;
+  }
 
+  article p {
+    padding-bottom: 0;
+  }
+
+  blockquote {
+    margin: 1.5em;
+  }
 
 }
 
