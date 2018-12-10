@@ -33,6 +33,7 @@ article h1 {
 
 article p {
   margin-top: 1.275em;
+  font-family: Crimson Text, serif;
 }
 
 article > p:nth-child(6) {
@@ -73,11 +74,6 @@ blockquote {
   padding: 0;
 }
 
-p {
-  font-family: Crimson Text, serif;
-  margin-top: 1.5em;
-}
-
 body {
   margin: 0;
 }
@@ -95,13 +91,25 @@ body {
     margin-top: .2em;
   }
 
-  article p {
+  article header p {
     padding-bottom: 0;
   }
 
   blockquote {
-    margin: 1.5em;
+    margin: 1.3em 2em;
   }
+
+  article > p:last-child {
+    margin-top: 2em;
+  }
+
+  article ol {
+    font-family: Crimson Text, serif;
+    margin-top: .5em;
+    padding: 1.2rem 1rem 0;
+    margin-bottom: 0;
+  }
+
 
 }
 
