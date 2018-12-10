@@ -26,14 +26,14 @@ article {
 }
 
 article h1 {
-  font-family: Crimson Text, serif;
+  font-family: "Crimson Text", serif;
   font-weight: normal;
   margin-bottom: 0;
 }
 
 article p {
   margin-top: 1.275em;
-  font-family: Crimson Text, serif;
+  font-family: "Crimson Text", serif;
 }
 
 article > p:nth-child(6) {
@@ -52,7 +52,7 @@ article header p {
 }
 
 article ol {
-  font-family: Crimson Text, serif;
+  font-family: "Crimson Text", serif;
   margin-top: 0;
   padding: 1.2rem 1rem 0;
   margin-bottom: 0;
@@ -62,7 +62,6 @@ article > p:last-child {
   padding-bottom: 1.3em;
   border-bottom: 1px solid #999;
 }
-
 
 blockquote {
   max-width: 24em;
@@ -104,23 +103,32 @@ body {
   }
 
   article ol {
-    font-family: Crimson Text, serif;
     margin-top: .5em;
     padding: 1.2rem 1rem 0;
     margin-bottom: 0;
   }
 
-
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    margin-left: 3.5em;
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
+  article p {
+    margin-top: 1.725em;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    margin-left: 10em;
+    font-size: 130%;
+  }
 
 }
